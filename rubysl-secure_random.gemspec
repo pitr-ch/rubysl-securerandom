@@ -4,8 +4,8 @@ require File.expand_path('../lib/rubysl-secure_random/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Brian Shirai"]
   gem.email         = ["brixen@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Ruby Standard Library - secure_random}
+  gem.summary       = %q{Ruby Standard Library - secure_random}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
