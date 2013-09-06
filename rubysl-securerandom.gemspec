@@ -3,7 +3,7 @@ require './lib/rubysl/securerandom/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "rubysl-securerandom"
-  spec.version       = Rubysl::SecureRandom::VERSION
+  spec.version       = RubySL::SecureRandom::VERSION
   spec.authors       = ["Brian Shirai"]
   spec.email         = ["brixen@gmail.com"]
   spec.description   = %q{Ruby standard lib securerandom.}
