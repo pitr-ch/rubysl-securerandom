@@ -56,7 +56,7 @@ module SecureRandom
   def self.random_bytes(n=nil)
     n ||= 16
 
-    if defined?(OpenSSL::Random) && OpenSSL::Random != Random
+    if OpenSSL.const_defined?(:Random)
       @pid = 0 if !defined?(@pid)
       pid = $$
       if @pid != pid
